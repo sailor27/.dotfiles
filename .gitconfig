@@ -1,0 +1,20 @@
+[user]
+	name = Sailor Winkelman
+	email = sailor.winkelman@modop.com
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[color]
+	ui = true
+[core]
+	excludesile = /Users/sailorwinkelman/.gitignore_global
+	excludesfile = /Users/sailorwinkelman/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/sailorwinkelman/.stCommitMsg
