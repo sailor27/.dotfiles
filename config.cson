@@ -1,0 +1,34 @@
+"*":
+  core:
+    disabledPackages: [
+      "snowfall"
+      "hey-pane"
+      "platformio-ide-terminal"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-light-ui"
+      "monokai"
+    ]
+  editor:
+    fontSize: 12
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "c65bbc71-4823-4edd-b337-98035381064a"
+  "language-babel":
+    autoIndentJSX: true
+  "linter-eslint":
+    fixOnSave: true
+  "linter-ui-default":
+    panelHeight: 300
+  "sync-settings":
+    _lastBackupHash: "dd867e1003f4291fc9b42d1a72cc676c27603f40"
+    gistId: "c656c778ed1be057c1c763ab7c330d86"
+    personalAccessToken: "bbbb3214be8dd153e248af4568308322245d6508"
+  welcome:
+    showOnStartup: false
